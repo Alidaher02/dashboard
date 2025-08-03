@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,900">
+    <link href="../assets/css/nucleo-icons.css" rel="stylesheet">
+    <link href="../assets/css/nucleo-svg.css" rel="stylesheet">
+    <script src="https://ct.pinterest.com/static/ct/token_create.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+
+    <title>Document</title>
+   
+     
+</head>
+<body class="px-2 relative xl:flex  py-2 bg-[#f4f4f4] text-black dark:text-white dark:bg-[#171717]   ">
+     <nav id="menu" class="w-[75%] fixed z-50 hidden  xl:grid grid-cols-1 h-[96vh] rounded-lg bg-white dark:bg-[#1d1d1d] lg:w-[25%] xl:w-[16%] md:w-[30%] sm:w-[40%] p-5 pb-7 justify-between ">
+      <div class="flex flex-col ">
+      <div class="flex gap-2 items-center">
+        <img class="w-7" src="./Material Dashboard 3 by Creative Tim_files/logo-ct-dark.webp" alt="">
+        
+        <p>Creative Tim</p>
+        
+      </div>
+      <div>
+        <ul class="flex flex-col  w-full gap-1  p-2 text-sm">
+          <li class="bg-[#111111]/90 dark:bg-gray-400 dark:text-black shadow-2xl hover:bg-[#111111] text-white rounded-lg hover:py-2 hover:rounded-lg py-2 px-2"><a class="  rounded-lg" href=""><span><i class="fas fa-th-large mr-2"></i></span>Dashboard</a></li>
+          <li class="hover:bg-gray-200 dark:hover:bg-gray-400 hover:py-2 hover:rounded-lg py-2 px-2"><a href=""><i class="fas fa-table-cells mr-2"></i> Tables</a></li>
+          <li class="hover:bg-gray-200 dark:hover:bg-gray-400 hover:py-2 hover:rounded-lg py-2 px-2"><a href=""><i class="fas fa-file-invoice-dollar mr-2"></i>Billing</a></li>
+          <li class="hover:bg-gray-200 dark:hover:bg-gray-400 hover:py-2 hover:rounded-lg py-2 px-2"><a href=""><i class="fas fa-vr-cardboard mr-2"></i>Virtual Reality</a></li>
+          <li class="hover:bg-gray-200 dark:hover:bg-gray-400 hover:py-2 hover:rounded-lg py-2 px-2"><a href=""><i class="fas fa-language mr-2"></i>RTL</a></li>
+          <li class="hover:bg-gray-200 dark:hover:bg-gray-400 hover:py-2 hover:rounded-lg py-2 px-2"><a href=""><i class="fas fa-bell mr-2"></i>Notification</a></li>
+        </ul>
+      </div>
+      <div class="space-y-2 p-2">
+        <h1 class="uppercase text-gray-500">Account pages</h1>
+        <ul class="flex flex-col  text-sm">
+          <li class="hover:bg-gray-200 hover:py-2 dark:hover:bg-gray-400 hover:rounded-lg py-2 px-2"><a href=""><i class="fa-solid fa-user mr-2"></i>Profile</a></li>
+          <li class="hover:bg-gray-200 hover:py-2 dark:hover:bg-gray-400 hover:rounded-lg py-2 px-2"><a href=""><i class="fas fa-sign-in-alt mr-2"></i>Sign In</a></li>
+          <li class="hover:bg-gray-200 hover:py-2  dark:hover:bg-gray-400 hover:rounded-lg py-2 px-2"><a href=""><i class="fa-solid fa-clipboard-list mr-2"></i>Sign Up</a></li>
+        </ul>
+      </div>
+      </div>
+      <div class="w-full flex flex-col gap-2 text-sm ">
+        <a class=" rounded-lg text-xs px-10 py-2 bg-transparent border dark:border-white border-black" href="">Documentation</a>
+        <a class="py-2 px-10 text-xs bg-[#111111] dark:bg-gray-400 dark:text-black text-white rounded-lg" href="">Upgrade to pro</a>
+      </div>
+      <div id="closebtn" class="xl:hidden absolute top-0 right-0 p-5 text-lg">
+       <button class=""> <i class="fa-solid fa-x"></i></button>
+      </div>
+     </nav>  
+     
+        
+
+  <header class="md:hidden sm:w-full  w-full     flex flex-col gap-3 py-2 px-2">
+    <h1><span class="text-gray-500 ">Pages </span>/ Dashboard</h1>
+    <div class="flex  sm:justify-between items-center justify-around gap-7">
+     <h1>Type</h1>
+     <div class="flex  w-24 text-sm justify-between h-8 items-center p-1">
+      <a class="w-1/2 border-r border-[[#f3f6f8]] h-full text-xs py-1 bg-[#f3f6f8] text-black " href=""><i class="fa-solid fa-star"></i> Star</a>
+      <a class="w-1/2 hover:text-blue-500  bg-[#ffffff] text-black h-full py-1 text-xs" href="">11,161</a>
+     </div>
+     <div class="sm:flex hidden">
+      <input class="py-1 bg-transparent border border-[#d2d6da] rounded-lg px-2 dark:border dark:border-[#202020]" placeholder="Type here..." type="text">
+    <a class="text-[#bb1b52] border text-xs border-[#bb1b52] py-1.5   px-2 rounded-lg" href="">Online Builder</a>
+     </div>
+     <div class="list-none flex gap-2 sm:gap-5 sm:text-2xl text-xl items-center text-[#5b5b5b]">
+      <button id="menu-btn"><li><i class="fa-solid fa-bars"></i></li></button>
+      <li><i class="fa-solid fa-gear"></i></li>
+      <li><i class="fa-solid fa-bell"></i></li>
+     </div>
+    </div>
+  </header>
+ <section class="  xl:ml-[18%] p-2 w-full">
+  <header class="hidden  md:flex justify-between  items-center">
+    <h1><span class="text-gray-500 ">Pages </span>/ Dashboard</h1>
+<div class="flex items-center gap-4">
+  <input class="py-2 bg-transparent border border-[#d2d6da] rounded-lg px-2 dark:border dark:border-[#202020]" placeholder="Type here..." type="text">
+  <a class="text-[#bb1b52] border border-[#bb1b52] py-2 text-sm px-4 rounded-lg" href="">Online Builder</a>
+  <div class="flex  sm:justify-around items-center justify-center gap-7">
+    <div class="flex  w-24 text-sm justify-between h-8 items-center p-1">
+     <a class="w-1/2 border-r border-[[#f3f6f8]] h-full text-xs py-1 bg-[#f3f6f8] text-black " href=""><i class="fa-solid fa-star"></i> Star</a>
+     <a class="w-1/2 bg-[#ffffff] text-black h-full py-1 text-xs hover:text-blue-500" href="">11,161</a>
+    </div>
+    <div class="list-none flex gap-2 sm:gap-5 sm:text-2xl text-xl items-center text-[#5b5b5b]">
+      <button id="menu-btn1" class="xl:hidden"><i class="fa-solid fa-bars"></i></button>
+     <li><a href=""><i class="fa-solid fa-gear"></i></a></li>
+     <li><a href=""><i class="fa-solid fa-bell"></i></a></li>
+     <li><a href=""><i class="fa-solid fa-circle-user"></i></a></li>
+    </div>
+   </div>
+</div>
+  </header>
+    
+   <section class="flex flex-col mt-5 gap-12">
+    <div>
+      <h1 class="font-bold text-2xl">Dashboard</h1>
+      <p class="text-[#8d8d8d] text-lg">Check the sales, value and bounce rate by country. </p>
+    </div>
+    <div class="md:grid md:grid-cols-4 grid  grid-cols-1 sm:grid sm:grid-cols-2 w-full gap-7 place-items-center">
+      <div class="bg-white w-full dark:bg-[#1d1d1d] xl:w-[257px] xl:h-[108px] rounded-lg flex flex-col p-2 gap-2">
+      <div class="flex items-center w-full justify-between ">
+        <div class="flex flex-col">
+          <p class="text-[#797979]">Today's Money</p>
+        <p class="font-bold text-2xl">$53k</p>
+        </div>
+        <div>
+          <div class="w-10 h-10 rounded-lg bg-[#2d354e] flex items-center justify-center dark:text-white text-white"><i class="fa-solid fa-user"></i></div>
+        </div>
+      </div>
+      <p class=""><span class="text-green-700">+55%</span> than last week</p>
+    </div>
+    <div class="bg-white dark:bg-[#1d1d1d] xl:w-[257px] xl:h-[108px] w-full rounded-lg flex flex-col p-2 gap-2">
+      <div class="flex items-center w-full justify-between ">
+        <div class="flex flex-col">
+          <p class="text-[#797979]">Today's Users</p>
+        <p class="font-bold text-2xl">2300</p>
+        </div>
+        <div>
+          <div class="w-10 h-10 rounded-lg bg-[#2d354e] flex items-center justify-center dark:text-white text-white"><i class="fa-solid fa-user"></i></div>
+        </div>
+      </div>
+      <p class=""><span class="text-green-700">+3%</span> than last month</p>
+    </div>
+    <div class="bg-white dark:bg-[#1d1d1d] xl:w-[257px] w-full xl:h-[108px] rounded-lg flex flex-col p-2 gap-2">
+      <div class="flex items-center w-full justify-between ">
+        <div class="flex flex-col">
+          <p class="text-[#797979]">Ads Views</p>
+        <p class="font-bold text-2xl">3,462</p>
+        </div>
+        <div>
+          <div class="w-10 h-10 rounded-lg bg-[#2d354e] flex items-center justify-center dark:text-white text-white"><i class="fa-solid fa-user"></i></div>
+        </div>
+      </div>
+      <p class=""><span class="text-red-700">-2% </span> than yesterday</p>
+    </div>
+    <div class="bg-white dark:bg-[#1d1d1d] xl:w-[257px] xl:h-[108px] w-full rounded-lg flex flex-col p-2 gap-2">
+      <div class="flex items-center w-full justify-between ">
+        <div class="flex flex-col">
+          <p class="text-[#797979]">Sales</p>
+        <p class="font-bold text-2xl">$103,430</p>
+        </div>
+        <div>
+          <div class="w-10 h-10 rounded-lg bg-[#2d354e] flex items-center justify-center dark:text-white text-white"><i class="fa-solid fa-user"></i></div>
+        </div>
+      </div>
+      <p class=""><span class="text-green-700">+5%</span> than yesterday</p>
+    </div>
+    </div>
+    
+   </section>
+
+
+
+
+
+
+
+
+ </section>
+
+
+
+
+
+
+  <div class="fixed right-0 bottom-0 mr-5 mb-5">
+    <div class="w-10  text-lg  flex items-center justify-center h-10 rounded-full bg-white dark:bg-[#1d1d1d]  "> 
+    <button id="theme-toggle"><i class="fa-solid fa-sun  text-yellow-600"></i></button>
+    <button class="hidden" id="dark-toggle"><i class="fa-solid fa-moon "></i></button>
+   </div>
+   </div>
+
+
+
+<script src="./script.js"></script>
+
+
+     <script>
+        tailwind.config = {
+          darkMode: 'class',
+        }
+      </script>
+      <script>
+        const toggleBtn = document.getElementById('theme-toggle');
+        const darkm = document.getElementById('dark-toggle')
+        toggleBtn.addEventListener('click', () => {
+          document.documentElement.classList.toggle('dark');
+          toggleBtn.classList.add('hidden')
+          darkm.classList.remove('hidden')
+          
+          
+          
+    
+        });
+        darkm.addEventListener('click', ()=>{
+          document.documentElement.classList.toggle('dark');
+          darkm.classList.add('hidden')
+          toggleBtn.classList.remove('hidden')
+        })
+      </script>
+</body>
+</html>
